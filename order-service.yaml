@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:3306/microservice_order_db
+    uri: jdbc:mysql://${DB_HOST:localhost}:3306/microservice_order_db
     username: campaign
     password: campaign
     driverClassName: com.mysql.cj.jdbc.Driver
